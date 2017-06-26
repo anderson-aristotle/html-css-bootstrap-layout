@@ -61,7 +61,6 @@ mind please write down your thoughts and we will discuss them as a class.
 -   [Divinity in Tech](http://divinityintech.com/)
 -   [UI Viking](http://uiviking.com/)
 -   [MintVine](https://mintvine.com/)
--   [The Tool Smith](http://thetoolsmith.com/)
 -   [Pave](http://pavingtheway.net/)
 
 ## Bootstrap Documentation
@@ -76,7 +75,7 @@ practice.
 
 ## Demo: Mobile-first Layout
 
-Lets get some firsthand experience writing Boootstrap it.  Using the
+Lets get some firsthand experience writing Boootstrap.  Using the
 documentation we discussed earlier write a simple grid in the `index.html` file
 located in this repo.  Make use of col-xs-#, col-sm-#, col-md-#, and col-lg-#.
 
@@ -96,9 +95,9 @@ Follow along as I add a bootstrap modal to our current sandbox page.
 
 On your own:
 
--   Referencing the Bootstrap documentation add an input-group to your
+-   Referencing the Bootstrap documentation add a form to your
     modal.
--   Using your knowledge of jQuery write a function so that when "save changes"
+-   Using your knowledge of get-form-fields write a function so that when "save changes"
     is clicked the input in the input field is console logged in Chrome.
 -   Refrencing the Bootstrap documentation add a navbar to your page.
 -   Move the button that opens up the modal to the navbar.
