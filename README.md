@@ -75,7 +75,7 @@ practice.
 
 ## Demo: Mobile-first Layout
 
-Lets get some firsthand experience writing Boootstrap it.  Using the
+Lets get some firsthand experience writing Boootstrap.  Using the
 documentation we discussed earlier write a simple grid in the `index.html` file
 located in this repo.  Make use of col-xs-#, col-sm-#, col-md-#, and col-lg-#.
 
@@ -95,7 +95,7 @@ Follow along as I add a bootstrap modal to our current sandbox page.
 
 On your own:
 
--   Referencing the Bootstrap documentation add an form to your
+-   Referencing the Bootstrap documentation add a form to your
     modal.
 -   Using your knowledge of get-form-fields write a function so that when "save changes"
     is clicked the input in the input field is console logged in Chrome.
