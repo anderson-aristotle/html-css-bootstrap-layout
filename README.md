@@ -96,9 +96,9 @@ Follow along as I add a bootstrap modal to our current sandbox page.
 
 On your own:
 
--   Referencing the Bootstrap documentation add an input-group to your
+-   Referencing the Bootstrap documentation add an form to your
     modal.
--   Using your knowledge of jQuery write a function so that when "save changes"
+-   Using your knowledge of get-form-fields write a function so that when "save changes"
     is clicked the input in the input field is console logged in Chrome.
 -   Refrencing the Bootstrap documentation add a navbar to your page.
 -   Move the button that opens up the modal to the navbar.
