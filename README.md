@@ -61,7 +61,6 @@ mind please write down your thoughts and we will discuss them as a class.
 -   [Divinity in Tech](http://divinityintech.com/)
 -   [UI Viking](http://uiviking.com/)
 -   [MintVine](https://mintvine.com/)
--   [The Tool Smith](http://thetoolsmith.com/)
 -   [Pave](http://pavingtheway.net/)
 
 ## Bootstrap Documentation
