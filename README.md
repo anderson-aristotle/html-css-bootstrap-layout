@@ -45,8 +45,8 @@ a table. In each row, Bootstrap utilizes a 12 column system.
 
 ## Lab: Review Sites Made With Bootstrap
 
-In squads closely inspect the following site list.  Keeping these questions in
-mind please write down your thoughts and we will discuss them as a class.
+In teams, closely inspect the following site list.  Keeping these questions in
+mind, write down your thoughts and we will discuss them together.
 
 1.  How are the the pages similar?
 
@@ -75,8 +75,8 @@ practice.
 
 ## Demo: Mobile-first Layout
 
-Lets get some firsthand experience writing Boootstrap.  Using the
-documentation we discussed earlier write a simple grid in the `index.html` file
+Let's get some firsthand experience writing Boootstrap.  Using the
+documentation we discussed earlier, write a simple grid in the `index.html` file
 located in this repo.  Make use of col-xs-#, col-sm-#, col-md-#, and col-lg-#.
 
 ## Lab: Laptop/Desktop Layout
@@ -84,8 +84,8 @@ located in this repo.  Make use of col-xs-#, col-sm-#, col-md-#, and col-lg-#.
 Try making an evenly spaced 3x3 grid.
 
 -   Place your column divs within a row div.
--   Place your row divs within a container div
--   Experiment with various viewport sizes
+-   Place your row divs within a container div.
+-   Experiment with various viewport sizes.
 
 ## Code-along: Modals and More
 
@@ -99,7 +99,7 @@ On your own:
     modal.
 -   Using your knowledge of get-form-fields write a function so that when "save changes"
     is clicked the input in the input field is console logged in Chrome.
--   Refrencing the Bootstrap documentation add a navbar to your page.
+-   Referencing the Bootstrap documentation add a navbar to your page.
 -   Move the button that opens up the modal to the navbar.
 
 ## Useful Resources
