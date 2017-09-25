@@ -48,6 +48,11 @@ a table. In each row, Bootstrap utilizes a 12 column system.
 In teams, closely inspect the following site list.  Keeping these questions in
 mind, write down your thoughts and we will discuss them together.
 
+-   [Divinity in Tech](http://divinityintech.com/)
+-   [UI Viking](http://uiviking.com/)
+-   [MintVine](https://mintvine.com/)
+-   [Pave](http://pavingtheway.net/)
+
 1.  How are the the pages similar?
 
 1.  How is the HTML similar among the pages?
@@ -57,11 +62,6 @@ mind, write down your thoughts and we will discuss them together.
 1.  How are elements on the pages horizontally arranged?
 
 1.  Notice any similarities among bootstrap pages in general?
-
--   [Divinity in Tech](http://divinityintech.com/)
--   [UI Viking](http://uiviking.com/)
--   [MintVine](https://mintvine.com/)
--   [Pave](http://pavingtheway.net/)
 
 ## Bootstrap Documentation
 
