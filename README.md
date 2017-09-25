@@ -4,8 +4,8 @@
 
 ## Prequisites
 
--   [ga-wdi-boston/html-css-layout](https://github.com/ga-wdi-boston/html-css-layout)
--   [ga-wdi-boston/html-css-sass](https://github.com/ga-wdi-boston/html-css-sass)
+-   [ga-wdi-boston/html-css-layout](https://git.generalassemb.ly/ga-wdi-boston/html-css-layout)
+-   [ga-wdi-boston/html-css-sass](https://git.generalassemb.ly/ga-wdi-boston/html-css-sass)
 
 ## Objectives
 
@@ -18,7 +18,7 @@ By the end of this, developers should be able to:
 
 ## Preparation
 
-1.  [Fork and clone](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
+1.  [Fork and clone](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
     this repository.
 1.  Install dependencies with `npm install`.
 
