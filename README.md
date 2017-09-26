@@ -4,8 +4,8 @@
 
 ## Prequisites
 
--   [ga-wdi-boston/html-css-layout](https://github.com/ga-wdi-boston/html-css-layout)
--   [ga-wdi-boston/html-css-sass](https://github.com/ga-wdi-boston/html-css-sass)
+-   [ga-wdi-boston/html-css-layout](https://git.generalassemb.ly/ga-wdi-boston/html-css-layout)
+-   [ga-wdi-boston/html-css-sass](https://git.generalassemb.ly/ga-wdi-boston/html-css-sass)
 
 ## Objectives
 
@@ -18,7 +18,7 @@ By the end of this, developers should be able to:
 
 ## Preparation
 
-1.  [Fork and clone](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
+1.  [Fork and clone](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
     this repository.
 1.  Install dependencies with `npm install`.
 
@@ -33,8 +33,8 @@ dynamic websites and web applications.
 "Bootstrap is the most popular HTML, CSS, and JS framework for developing
 responsive, mobile first projects on the web." - bootstrap.com
 
-Bootstrap is the most-starred project on GitHub, with over 90K stars and more
-than 38K forks.
+Bootstrap is the most-starred project on GitHub, with over 100K stars and more
+than 50K forks.
 
 [Bootstrap Wiki](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
 
@@ -45,8 +45,13 @@ a table. In each row, Bootstrap utilizes a 12 column system.
 
 ## Lab: Review Sites Made With Bootstrap
 
-In squads closely inspect the following site list.  Keeping these questions in
-mind please write down your thoughts and we will discuss them as a class.
+In teams, closely inspect the following site list.  Keeping these questions in
+mind, write down your thoughts and we will discuss them together.
+
+-   [Divinity in Tech](http://divinityintech.com/)
+-   [UI Viking](http://uiviking.com/)
+-   [MintVine](https://mintvine.com/)
+-   [Pave](http://pavingtheway.net/)
 
 1.  How are the the pages similar?
 
@@ -57,11 +62,6 @@ mind please write down your thoughts and we will discuss them as a class.
 1.  How are elements on the pages horizontally arranged?
 
 1.  Notice any similarities among bootstrap pages in general?
-
--   [Divinity in Tech](http://divinityintech.com/)
--   [UI Viking](http://uiviking.com/)
--   [MintVine](https://mintvine.com/)
--   [Pave](http://pavingtheway.net/)
 
 ## Bootstrap Documentation
 
@@ -75,8 +75,8 @@ practice.
 
 ## Demo: Mobile-first Layout
 
-Lets get some firsthand experience writing Boootstrap.  Using the
-documentation we discussed earlier write a simple grid in the `index.html` file
+Let's get some firsthand experience writing Boootstrap.  Using the
+documentation we discussed earlier, write a simple grid in the `index.html` file
 located in this repo.  Make use of col-xs-#, col-sm-#, col-md-#, and col-lg-#.
 
 ## Lab: Laptop/Desktop Layout
@@ -84,8 +84,8 @@ located in this repo.  Make use of col-xs-#, col-sm-#, col-md-#, and col-lg-#.
 Try making an evenly spaced 3x3 grid.
 
 -   Place your column divs within a row div.
--   Place your row divs within a container div
--   Experiment with various viewport sizes
+-   Place your row divs within a container div.
+-   Experiment with various viewport sizes.
 
 ## Code-along: Modals and More
 
@@ -99,7 +99,7 @@ On your own:
     modal.
 -   Using your knowledge of get-form-fields write a function so that when "save changes"
     is clicked the input in the input field is console logged in Chrome.
--   Refrencing the Bootstrap documentation add a navbar to your page.
+-   Referencing the Bootstrap documentation add a navbar to your page.
 -   Move the button that opens up the modal to the navbar.
 
 ## Useful Resources
