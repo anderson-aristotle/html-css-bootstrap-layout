@@ -89,6 +89,10 @@ Try making an evenly spaced 3x3 grid.
 
 ## Code-along: Modals and More
 
+"Modals are streamlined, but flexible dialog prompts powered by JavaScript. They support a number of use cases from user notification to completely custom content and feature a handful of helpful subcomponents, sizes, and more." - Bootstrap
+
+Bootstrap provides numerous custom Javascript methods for us to use with modals. It's incredibly important that we take advantage of these & use them as directed. For example, using jQuery's `.hide` method will not work the way you expect it to with a modal. Instead, use the preferred Bootstrap `.modal('hide')`. Check out [the Bootstrap docs](https://getbootstrap.com/docs/3.3/javascript/#modals-methods) for further explanation.
+
 Follow along as I add a bootstrap modal to our current sandbox page.
 
 ## Lab: Modals and More
