@@ -73,6 +73,23 @@ Do not use premade bootstrap templates. They often have alternate versions of
 jQuery or Bootstrap which are different than the versions we will be using to
 practice.
 
+## Containers
+"Bootstrap requires a containing element to wrap site contents and house our grid system. You may choose one of two containers to use in your projects. Note that, due to padding and more, neither container is nestable."
+
+Use `.container` for a responsive fixed width container.
+```html
+<div class="container">
+  ...
+</div>
+```
+Use `.container-fluid` for a full width container, spanning the entire width of your viewport.
+
+```html
+<div class="container-fluid">
+  ...
+</div>
+```
+
 ## Demo: Mobile-first Layout
 
 Let's get some firsthand experience writing Boootstrap.  Using the
@@ -114,9 +131,11 @@ On your own:
 -   [Bootstrap Documentation](http://getbootstrap.com/)
 -   [Semantic HTML](http://stackoverflow.com/a/24765186/402618/)
 -   [Improve Your Markup by Extending Classes](https://coderwall.com/p/wixovg/bootstrap-without-all-the-debt)
+-   [Bootstrap Overview Container](https://getbootstrap.com/docs/3.3/css/#overview-container)
+
 
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
