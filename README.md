@@ -100,7 +100,7 @@ your viewport.
 
 Let's get some firsthand experience writing Bootstrap.  Using the
 documentation we discussed earlier, write a simple grid in the `index.html` file
-located in this repo.  Make use of col-xs-#, col-sm-#, col-md-#, and col-lg-#.
+located in this repo.  Make use of col-#, col-sm-#, col-md-#, and col-lg-#.
 
 ## Lab: Laptop/Desktop Layout
 
