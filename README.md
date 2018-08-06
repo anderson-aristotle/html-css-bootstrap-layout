@@ -122,7 +122,7 @@ It's incredibly important that we take advantage of these & use them as
 directed. For example, using jQuery's `.hide` method will not work the way you
 expect it to with a modal. Instead, use the preferred Bootstrap
 `.modal('hide')`. Check out
-[the Bootstrap docs](https://getbootstrap.com/docs/3.3/javascript/#modals-methods)
+[the Bootstrap docs](https://getbootstrap.com/docs/4.1/components/modal/#methods)
 for further explanation.
 
 Follow along as I add a bootstrap modal to our current sandbox page.
@@ -146,7 +146,7 @@ On your own:
 - [Bootstrap Documentation](http://getbootstrap.com/)
 - [Semantic HTML](http://stackoverflow.com/a/24765186/402618/)
 - [Improve Your Markup by Extending Classes](https://coderwall.com/p/wixovg/bootstrap-without-all-the-debt)
-- [Bootstrap Overview Container](https://getbootstrap.com/docs/3.3/css/#overview-container)
+- [Bootstrap Overview Container](https://getbootstrap.com/docs/4.1/layout/overview/#containers)
 
 ## [License](LICENSE)
 
