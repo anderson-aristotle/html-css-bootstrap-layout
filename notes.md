@@ -11,7 +11,9 @@ npm update --save-dev
   # note: make sure it works
 rm package.json.bak
 ```
-- the above sed command replaces all of the versions with an `*`. Then npm updates grab the latest version and replace.
+
+- the above sed command replaces all of the versions with an `*`. Then npm
+  updates grab the latest version and replace.
 
 ## Structure
 
@@ -32,7 +34,7 @@ Very rarely, `package-lock.json` can cause a problem for Linux users. If
 `npm install` is failing on Linux or developers are seeing errors related to
 missing dependencies or modules, they should:
 
-```
+```bash
 git rm package-lock.json
 rm -rf node_modules
 npm install
