@@ -98,17 +98,23 @@ your viewport.
 
 ## Demo: Mobile-first Layout
 
-Let's get some firsthand experience writing Bootstrap.  Using the
-documentation we discussed earlier, write a simple grid in the `index.html` file
-located in this repo.  Make use of col-#, col-sm-#, col-md-#, and col-lg-#.
+Let's get some firsthand experience writing Bootstrap. Using the
+documentation we discussed earlier, we can make a simple grid in the `index.html`
+file located in this repo with the col-#, col-sm-#, col-md-#, and col-lg-#
+classes.
 
-## Lab: Laptop/Desktop Layout
+## Lab: Mobile-first Layout
 
-Try making an evenly spaced 3x3 grid.
+Now try it on your own, keeping in mind mobile-first practices.
+
+- Make an evenly spaced 3x3 grid on mobile (small) screens or smaller
+- Once this works, have your grid stay 3x3 on medium screens
+- Finally, have your columns be full-width on large sized screens or larger
+
+Don't forget to:
 
 - Place your column divs within a row div.
 - Place your row divs within a container div.
-- Experiment with various viewport sizes.
 
 ## Code-along: Modals and More
 
