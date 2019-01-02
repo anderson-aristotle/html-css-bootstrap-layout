@@ -21,6 +21,7 @@ By the end of this, developers should be able to:
 1. [Fork and clone](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
     this repository.
 1. Install dependencies with `npm install`.
+2. Use `grunt serve` to start the application.
 
 ## Twitter Bootstrap
 
@@ -38,13 +39,14 @@ Bootstrap is the most-starred project on [GitHub](https://github.com/twbs/bootst
 [Bootstrap Wiki](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
 
 Bootstrap is built on a grid like design that consists of rows and columns, like
-a table. In each row, Bootstrap utilizes a 12 column system.
+a table. In each row, Bootstrap utilizes a 12 column system. We can combine
+different sizes of these columns to make custom grids.
 
-![Bootstrap Grid Example](https://cloud.githubusercontent.com/assets/8379295/15674757/818a4ff2-270c-11e6-8ad3-9d5825f0c188.png)
+![Bootstrap Grid Example](https://media.git.generalassemb.ly/user/16103/files/96713700-03a5-11e9-8eb8-9323ad08acbf)
 
 ## Lab: Review Sites Made With Bootstrap
 
-In teams, closely inspect the following site list.  Keeping these questions in
+In teams, closely inspect the following site list. Keeping these questions in
 mind, write down your thoughts and we will discuss them together.
 
 - [Divinity in Tech](http://divinityintech.com/)
@@ -95,19 +97,36 @@ your viewport.
 </div>
 ```
 
+## Column Classes
+
+Bootstrap's 12-column grid system is based on elements with different `col-*`
+classes. These classes are dynamic and can change to reflect the width of the
+column (`1` through `12`) and at which  browser size (blank, `sm`, `md`, `lg`,
+or `xl`) that column should be the defined width.
+
+Here is a breakdown of the available classes and when we should use them:
+
+![col-breakdown](https://media.git.generalassemb.ly/user/16103/files/8e64c780-03a4-11e9-93ac-a2ad0c72c375)
+
 ## Demo: Mobile-first Layout
 
-Let's get some firsthand experience writing Bootstrap.  Using the
-documentation we discussed earlier, write a simple grid in the `index.html` file
-located in this repo.  Make use of col-#, col-sm-#, col-md-#, and col-lg-#.
+Let's get some firsthand experience writing Bootstrap. Using the
+documentation we discussed earlier, we can make a simple grid in the `index.html`
+file located in this repo with the col-#, col-sm-#, col-md-#, and col-lg-#
+classes.
 
-## Lab: Laptop/Desktop Layout
+## Lab: Mobile-first Layout
 
-Try making an evenly spaced 3x3 grid.
+Now try it on your own, keeping in mind mobile-first practices.
+
+- Make an evenly spaced 3x3 grid on mobile (small) screens or smaller
+- Once this works, have your grid stay 3x3 on medium screens
+- Finally, have your columns be full-width on large sized screens or larger
+
+Don't forget to:
 
 - Place your column divs within a row div.
 - Place your row divs within a container div.
-- Experiment with various viewport sizes.
 
 ## Code-along: Modals and More
 
