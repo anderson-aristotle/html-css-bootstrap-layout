@@ -36,6 +36,8 @@ dynamic websites and web applications.
 
 Bootstrap is the most-starred project on [GitHub](https://github.com/twbs/bootstrap).
 
+Checkout some of the [award-winning sites](https://www.awwwards.com/websites/bootstrap/) built on Bootstrap.
+
 [Bootstrap Wiki](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
 
 Bootstrap is built on a grid like design that consists of rows and columns, like
@@ -44,17 +46,15 @@ different sizes of these columns to make custom grids.
 
 ![Bootstrap Grid Example](https://media.git.generalassemb.ly/user/16103/files/96713700-03a5-11e9-8eb8-9323ad08acbf)
 
-## Lab: Review Sites Made With Bootstrap
+## Lab: Review Example Pages Made With Bootstrap
 
 In teams, closely inspect the following site list. Keeping these questions in
 mind, write down your thoughts and we will discuss them together.
 
-- [Divinity in Tech](http://divinityintech.com/)
-- [UI Viking](http://uiviking.com/)
-- [MintVine](https://mintvine.com/)
-- [Pave](http://pavingtheway.net/)
-
-1. How are the the pages similar?
+- [Album Example](https://getbootstrap.com/docs/4.3/examples/album/)
+- [Checkout Example](https://getbootstrap.com/docs/4.3/examples/checkout/)
+- [Carousel Example](https://getbootstrap.com/docs/4.3/examples/carousel/)
+- [Blog Example](https://getbootstrap.com/docs/4.3/examples/blog/)
 
 1. How is the HTML similar among the pages?
 
@@ -63,6 +63,8 @@ mind, write down your thoughts and we will discuss them together.
 1. How are elements on the pages horizontally arranged?
 
 1. Notice any similarities among bootstrap pages in general?
+
+1. Choose one site and draw three wireframes showing the transition of the page from mobile to tablet to desktop size.
 
 ## Bootstrap Documentation
 
