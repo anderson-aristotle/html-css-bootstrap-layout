@@ -123,7 +123,7 @@ Now try it on your own, keeping in mind mobile-first practices.
 
 - Make an evenly spaced 3x3 grid on mobile (small) screens or smaller
 - Once this works, have your grid stay 3x3 on medium screens
-- Finally, have your columns be full-width on large sized screens or larger
+- Finally, have your columns be 4x4 on large sized screens or larger
 
 Don't forget to:
 
