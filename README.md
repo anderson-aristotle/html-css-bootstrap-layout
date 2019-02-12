@@ -23,25 +23,18 @@ By the end of this, developers should be able to:
 1. Install dependencies with `npm install`.
 1. Use `grunt serve` to start the application.
 
-## Twitter Bootstrap
+## Bootstrap
 
-Bootstrap is a free and open-source collection of tools for creating websites
-and web applications. It contains HTML- and CSS-based design templates for
-typography, forms, buttons, navigation and other interface components, as
-well as optional JavaScript extensions. It aims to ease the development of
-dynamic websites and web applications.
+Bootstrap is the "world’s most popular front-end component library" for developing responsive, mobile first projects on the web.  It's the second most-starred project on [GitHub](https://github.com/twbs/bootstrap) according to the [Bootstrap wiki](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)).
 
->"Bootstrap is the most popular HTML, CSS, and JS framework for developing
->responsive, mobile first projects on the web." _- bootstrap.com_
-
-Bootstrap is the most-starred project on [GitHub](https://github.com/twbs/bootstrap).
+Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. It allows you to quickly prototype your ideas or build an entire app using Sass variables and mixins; a responsive grid system; and, an extensive collection of prebuilt components and powerful plugins built on jQuery.
 
 Checkout some of the [award-winning sites](https://www.awwwards.com/websites/bootstrap/) built on Bootstrap.
 
-[Bootstrap Wiki](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
+### Boostrap's Grid System
 
 Bootstrap is built on a grid like design that consists of rows and columns, like
-a table. In each row, Bootstrap utilizes a 12 column system. We can combine
+a table. Bootstrap utilizes a 12-column system. We can combine
 different sizes of these columns to make custom grids.
 
 ![Bootstrap Grid Example](https://media.git.generalassemb.ly/user/16103/files/96713700-03a5-11e9-8eb8-9323ad08acbf)
@@ -68,19 +61,19 @@ mind, write down your thoughts and we will discuss them together.
 
 ## Bootstrap Documentation
 
-For components and jQuery plugins always reference the Bootstrap docs.
-
- [Bootstrap Documentation](http://getbootstrap.com/)
+For components and jQuery plugins always reference the [Bootstrap documentation](http://getbootstrap.com/).
 
 Do not use premade bootstrap templates. They often have alternate versions of
 jQuery or Bootstrap which are different than the versions we will be using to
 practice.
 
-## Containers
+## Working with the Boostrap Grid
 
-"Bootstrap requires a containing element to wrap site contents and house our
-grid system. You may choose one of two containers to use in your projects. Note
-that, due to padding and more, neither container is nestable."
+### Containers
+
+> Containers are the most basic layout element in Bootstrap and are **required** when using the default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).
+
+> While containers *can* be nested, most layouts do not require a nested container.
 
 Use `.container` for a responsive fixed width container.
 
@@ -98,8 +91,13 @@ your viewport.
   ...
 </div>
 ```
+### Rows
 
-## Column Classes
+Rows are wrappers for Bootstrap columns. Each container should have **at least** one child element with the `row` class.
+
+Columns have horizontal padding (called a gutter) for controlling the space between them. This padding is then counteracted on the rows with negative margins. This way, all the content in your columns is visually aligned down the left side.
+
+### Columns
 
 Bootstrap's 12-column grid system is based on elements with different `col-*`
 classes. These classes are dynamic and can change to reflect the width of the
@@ -132,10 +130,9 @@ Don't forget to:
 
 ## Code-along: Modals and More
 
->"Modals are streamlined, but flexible dialog prompts powered by JavaScript. They
->support a number of use cases from user notification to completely custom
->content and feature a handful of helpful subcomponents, sizes, and more."
->_- Bootstrap_
+Modals are streamlined, but flexible dialog prompts powered by JavaScript. They
+support a number of use cases from user notification to completely custom
+content and feature a handful of helpful subcomponents, sizes, and more.
 
 Bootstrap provides numerous custom JavaScript methods for us to use with modals.
 It's incredibly important that we take advantage of these & use them as
