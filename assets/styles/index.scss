@@ -1,10 +1,10 @@
 @import '~bootstrap/scss/bootstrap';
 
 $background-color: #919ade;
-$font-color: #dfdfdf;
+$font-color: #efefef;
 $white: #fff;
-$grey: rgb(128, 128, 128);
-$teal: rgb(0, 156, 161);
+$grey: #aaa;
+$teal: var(--teal);
 $black: #000;
 
 body {
