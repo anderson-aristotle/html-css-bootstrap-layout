@@ -1,9 +1,9 @@
 @import '~bootstrap/scss/bootstrap';
 
-$background-color: #919ade;
-$font-color: #efefef;
+$background-color: $primary;
+$font-color: $light;
 $white: #fff;
-$grey: #aaa;
+$grey: $secondary;
 $teal: var(--teal);
 $black: #000;
 
