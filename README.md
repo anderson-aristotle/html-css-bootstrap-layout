@@ -21,40 +21,33 @@ By the end of this, developers should be able to:
 1. [Fork and clone](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
     this repository.
 1. Install dependencies with `npm install`.
-2. Use `grunt serve` to start the application.
+1. Use `grunt serve` to start the application.
 
-## Twitter Bootstrap
+## Bootstrap
 
-Bootstrap is a free and open-source collection of tools for creating websites
-and web applications. It contains HTML- and CSS-based design templates for
-typography, forms, buttons, navigation and other interface components, as
-well as optional JavaScript extensions. It aims to ease the development of
-dynamic websites and web applications.
+Bootstrap is the "world’s most popular front-end component library" for developing responsive, mobile first projects on the web.  It's the second most-starred project on [GitHub](https://github.com/twbs/bootstrap) according to the [Bootstrap wiki](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)).
 
->"Bootstrap is the most popular HTML, CSS, and JS framework for developing
->responsive, mobile first projects on the web." _- bootstrap.com_
+Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. It allows you to quickly prototype your ideas or build an entire app using Sass variables and mixins; a responsive grid system; and, an extensive collection of prebuilt components and powerful plugins built on jQuery.
 
-Bootstrap is the most-starred project on [GitHub](https://github.com/twbs/bootstrap).
+Checkout some of the [award-winning sites](https://www.awwwards.com/websites/bootstrap/) built on Bootstrap.
 
-[Bootstrap Wiki](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
+### Boostrap's Grid System
 
-Bootstrap is built on a grid like design that consists of rows and columns, like
-a table. In each row, Bootstrap utilizes a 12 column system. We can combine
-different sizes of these columns to make custom grids.
+Bootstrap is built on a grid that consists of rows and columns, much like
+a table. Bootstrap utilizes a 12-column grid system that allows us to combine
+different size columns to make custom responsive layouts.
 
 ![Bootstrap Grid Example](https://media.git.generalassemb.ly/user/16103/files/96713700-03a5-11e9-8eb8-9323ad08acbf)
 
-## Lab: Review Sites Made With Bootstrap
+## Lab: Review Example Pages Made With Bootstrap
 
-In teams, closely inspect the following site list. Keeping these questions in
+In teams, closely inspect each of the following pages. Keeping these questions in
 mind, write down your thoughts and we will discuss them together.
 
-- [Divinity in Tech](http://divinityintech.com/)
-- [UI Viking](http://uiviking.com/)
-- [MintVine](https://mintvine.com/)
-- [Pave](http://pavingtheway.net/)
-
-1. How are the the pages similar?
+- [Album Example](https://getbootstrap.com/docs/4.3/examples/album/)
+- [Checkout Example](https://getbootstrap.com/docs/4.3/examples/checkout/)
+- [Carousel Example](https://getbootstrap.com/docs/4.3/examples/carousel/)
+- [Blog Example](https://getbootstrap.com/docs/4.3/examples/blog/)
 
 1. How is the HTML similar among the pages?
 
@@ -64,21 +57,24 @@ mind, write down your thoughts and we will discuss them together.
 
 1. Notice any similarities among bootstrap pages in general?
 
+1. Choose one site and draw three wireframes showing the transition of the page from mobile to tablet to desktop size.
+
 ## Bootstrap Documentation
 
-For components and jQuery plugins always reference the Bootstrap docs.
+For components and jQuery plugins always reference the [Bootstrap documentation](http://getbootstrap.com/).  Let's take a look at some of the areas within the documentation that will be helpful for us:
 
- [Bootstrap Documentation](http://getbootstrap.com/)
+- [Layout](https://getbootstrap.com/docs/4.3/layout/overview/): Describes how to use the Bootstrap grid.
+- [Content](https://getbootstrap.com/docs/4.3/content/): Provides an overview of typography, images and tables.
+- [Components](https://getbootstrap.com/docs/4.3/components/): Explains how to use each of the Bootstrap components, such as buttons, forms, modals, navbars, alerts and much more.
+- [Utilities](https://getbootstrap.com/docs/4.3/utilities/): Demonstrates how to use Bootstrap's many utility classes.
 
-Do not use premade bootstrap templates. They often have alternate versions of
-jQuery or Bootstrap which are different than the versions we will be using to
-practice.
+## Working with the Boostrap Grid
 
-## Containers
+### Containers
 
-"Bootstrap requires a containing element to wrap site contents and house our
-grid system. You may choose one of two containers to use in your projects. Note
-that, due to padding and more, neither container is nestable."
+Containers are the foundational layout element in Bootstrap and are **required** when using the default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).
+
+> While containers *can* be nested, most layouts do not require a nested container.
 
 Use `.container` for a responsive fixed width container.
 
@@ -96,13 +92,16 @@ your viewport.
   ...
 </div>
 ```
+### Rows
 
-## Column Classes
+Rows are wrappers for Bootstrap columns. Each container should have **at least** one child element with the `row` class, and all columns should be child elements of a row.
 
-Bootstrap's 12-column grid system is based on elements with different `col-*`
-classes. These classes are dynamic and can change to reflect the width of the
-column (`1` through `12`) and at which  browser size (blank, `sm`, `md`, `lg`,
-or `xl`) that column should be the defined width.
+Rows counteract the horizontal padding added to columns with negative margins. This way, all the content in your columns is visually aligned.
+
+### Columns
+
+Bootstrap's 12-column grid system is based on elements with different `col-*` classes. These classes specify the width of the
+column (`1` through `12`) at a specific breakpoint (blank, `sm`, `md`, `lg`, or `xl`).  Breakpoints are set pixel boundaries within the media queries for our page or site.  Bootstrap has 5 built-in breakpoints.
 
 Here is a breakdown of the available classes and when we should use them:
 
@@ -110,10 +109,7 @@ Here is a breakdown of the available classes and when we should use them:
 
 ## Demo: Mobile-first Layout
 
-Let's get some firsthand experience writing Bootstrap. Using the
-documentation we discussed earlier, we can make a simple grid in the `index.html`
-file located in this repo with the col-#, col-sm-#, col-md-#, and col-lg-#
-classes.
+Let's get some firsthand experience with Bootstrap. In the `index.html` file located in this repo, there is a simple grid that's been created with the col-#, col-sm-#, col-md-#, and col-lg-# classes.  Before we look at the demo in the browser, let's open up the file in Atom and examine the HTML and CSS classes that have been added to it.
 
 ## Lab: Mobile-first Layout
 
@@ -121,23 +117,22 @@ Now try it on your own, keeping in mind mobile-first practices.
 
 - Make an evenly spaced 3x3 grid on mobile (small) screens or smaller
 - Once this works, have your grid stay 3x3 on medium screens
-- Finally, have your columns be full-width on large sized screens or larger
+- Finally, have your columns be 4x1, followed by 2x2, followed by one full-width column on large sized screens or larger
 
 Don't forget to:
 
-- Place your column divs within a row div.
-- Place your row divs within a container div.
+- Place your columns within a row.
+- Place your row within a container.
 
 ## Code-along: Modals and More
 
->"Modals are streamlined, but flexible dialog prompts powered by JavaScript. They
->support a number of use cases from user notification to completely custom
->content and feature a handful of helpful subcomponents, sizes, and more."
->_- Bootstrap_
+Modals are streamlined, but flexible dialog prompts powered by JavaScript. They
+support a number of use cases from user notification to completely custom
+content and feature a handful of helpful subcomponents, sizes, and more.
 
 Bootstrap provides numerous custom JavaScript methods for us to use with modals.
-It's incredibly important that we take advantage of these & use them as
-directed. For example, using jQuery's `.hide` method will not work the way you
+It's important that we use the provided JavaScript methods as
+described in the documentation. For example, using jQuery's `.hide` method will not work the way you
 expect it to with a modal. Instead, use the preferred Bootstrap
 `.modal('hide')`. Check out
 [the Bootstrap docs](https://getbootstrap.com/docs/4.1/components/modal/#methods)
@@ -152,9 +147,20 @@ On your own:
 - Referencing the Bootstrap documentation add a form to your
     modal.
 - Using your knowledge of get-form-fields write a function so that when "save changes"
-    is clicked the input in the input field is console logged in Chrome.
-- Referencing the Bootstrap documentation add a navbar to your page.
-- Move the button that opens up the modal to the navbar.
+    is clicked the input in the input field is logged to the browser's console.
+- Referencing the Bootstrap documentation add a navbar to your page which has the `navbar-dark` and `bg-primary` [color scheme](https://getbootstrap.com/docs/4.3/components/navbar/#color-schemes) classes and fix it to the top of the screen with the `fixed-top` [placement](https://getbootstrap.com/docs/4.3/components/navbar/#placement) class.
+- Move the button that opens up the modal to the navbar and change the [button color](https://getbootstrap.com/docs/4.3/components/buttons/#outline-buttons) by swapping the `btn-primary` class to `btn-outline-light`.
+
+## Bootstrap's Color System
+
+Bootstrap uses a color system that is used consisently throughout all of the components and utilities.  This makes it easy for us to theme our sites and applications using these built in classes and the underlying Sass variables.
+
+For example, to update all of the components which have Bootstrap's primary color applied, we can simply change one variable:
+
+```sass
+/* Add BEFORE Bootstrap is imported */
+$primary: #ff1493;
+```
 
 ## Useful Resources
 
